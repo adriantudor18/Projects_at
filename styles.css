@@ -2,14 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #552583; /* Lakers Purple */
-    color: #FDB927; /* Lakers Gold */
+    background-color: #552583; 
+    color: #FDB927; 
     line-height: 1.6;
 }
 
 header {
-    background: #FDB927; /* Lakers Gold */
-    color: #552583; /* Lakers Purple */
+    background: #FDB927; 
+    color: #552583; 
     padding: 1rem 0;
     text-align: center;
 }
@@ -20,7 +20,7 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
-    background: #552583; /* Lakers Purple */
+    background: #552583;
 }
 
 nav ul li {
@@ -28,7 +28,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #FDB927; /* Lakers Gold */
+    color: #FDB927; 
     text-decoration: none;
     font-weight: bold;
 }
@@ -39,12 +39,12 @@ nav ul li a:hover {
 
 h1 {
     text-align: center;
-    color: white; /* Title color for visibility */
+    color: white;
 }
 
 h2 {
     text-align: center;
-    color: #FDB927; /* Retain gold for subheadings */
+    color: #FDB927;
 }
 
 section {
@@ -74,8 +74,8 @@ table th, table td {
 }
 
 table th {
-    background-color: #FDB927; /* Lakers Gold */
-    color: #552583; /* Lakers Purple */
+    background-color: #FDB927;
+    color: #552583; 
 }
 
 .center-image {
@@ -88,9 +88,38 @@ table th {
 footer {
     text-align: center;
     padding: 10px;
-    background: #552583; /* Lakers Purple */
-    color: #FDB927; /* Lakers Gold */
+    background: #552583; 
+    color: #FDB927; 
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+form {
+    width: 100%;
+    max-width: 400px; 
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box; 
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FDB927;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+button:hover {
+    background-color: #552583;
 }
